@@ -1,0 +1,43 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+   }
+   p{color: red;
+       text-align: center;
+   }
+   #para1{
+       font-size: 40px;
+   }
+   .selecionado{
+       color: rgb(87, 51, 10);
+       font-size: 30px;
+       text-align: center;
+       width: 100%;
+   }
+   .titulo{
+       font-size: 60px;
+       opacity: 0.4;
+   }
+   h1,p{
+       background-color: bisque;
+       
+   }
+   div p{
+    outline: rgb(202, 119, 147);
+    border: 10px solid chartreuse;
+   }
+   p ~ ul{
+    background-color: blueviolet;
+    color: rgb(220, 220, 199);
+   }
+   /* unvisited link*/
+   a:link{
+    color: aquamarine;
+   }
+   /* unvisited link*/
+   a:visited{
+    color: rgb(81, 15, 173);
+   }
+   /* unvisited link*/
+   a:hover{
+    color: rgb(175, 28, 92);
+   }

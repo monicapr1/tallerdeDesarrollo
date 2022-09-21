@@ -1,0 +1,235 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+
+}
+.contenedor{
+    padding: 60px 0;
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+
+}
+.titulo{
+    font-family: 'Poppins', sans-serif;
+    color: #850E35;
+    font-size: 100px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+/*header*/
+header{
+    width: 100%;
+    height: 1200px;
+    background: #bc4e9c;  
+    background: linear-gradient(to right, hsla(340, 95%, 50%, 0.614), hsla(317, 45%, 52%, 0.597)), url(../img/lenguaje-de-codificacion.png); 
+
+background: linear-gradient(to right, hsla(340, 95%, 50%, 0.614), hsla(317, 45%, 52%, 0.597)), url(../img/lenguaje-de-codificacion.png); 
+
+background-size: 100%;
+background-attachment: 100%;
+position: relative;
+
+}
+nav{
+    text-align: right;
+    padding: 30px 50px 0 0;
+}
+nav > a{
+    color: #fff;
+    font-weight: 300;
+    text-decoration:none;
+    font-size: 16px;
+    margin-right: 10px;
+
+}
+nav > a:hover{
+    
+    text-decoration:underline;
+}
+header .textos-header{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+.textos-header h1{
+    font-size: 80px;
+    color: #fff;
+}
+.textos-header h2{
+    font-size: 40px;
+    font-weight: 300;
+    color: #fff;
+}
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+}
+/*about  me*/
+.contenedor-sobre-mi{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.imagen-aboutme{
+    width: 28%;
+    
+}
+.sobre-mi .contenido-textos{
+    width: 48%;
+    
+}
+.contenido-textos h3{
+    margin-bottom: 15px;
+
+}
+.contenido-textos h3 span{
+    background: #4d0686;
+    color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+   margin-right: 5px;
+}
+.contenido-textos p{
+    padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    text-align: justify;
+}
+/* Galeria*/
+.portafolio{
+    background-color: rgb(246, 214, 214);
+}
+.galerias.port{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+.imagen-port{
+    width: 24%;
+    margin-left: 400px;
+    margin-bottom: 10px;
+   
+    overflow: hidden;
+    position: relative;
+    cursor:pointer;
+    box-shadow: 0 0 6px rgb(0, 0, 0, .5);
+}
+.imagen-port > img{
+    width: 90%;
+    height: 100%;
+    
+    object-fit: cover;
+    display: block;
+}
+.hover-galeria{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    
+    background: hsla(328, 95%, 49%, 0.366);
+    transition: transform .05s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.hover-galeria img{
+    width: 50px;
+    color: #fff;
+}
+.hover-galeria p{
+    color: rgb(238, 234, 234);
+    text-shadow: #8f004c;
+}
+.imagen-port:hover .hover-galeria{
+    transform: scale(0);
+}
+/*con*/
+.about-services {
+    font-size: larger;
+    background-color: rgb(246, 214, 214);
+    padding-bottom: 10px;
+    color: rgb(119, 11, 49);
+
+}
+.servicio-cont{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.servicio-ind{
+    width: 28%;
+    text-align: center;
+}
+.servicio-ind img{
+    width: 98%;
+}
+.servicio-ind h3{
+    margin: 10px 0;
+}
+.servicio-ind p{
+    font-weight: 100;
+    text-align: center;
+    color: #8f004c;
+
+}
+footer{
+    background-color: #d516168b;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 10px;
+    border-bottom: 5px solid rgba(189, 55, 14, 0.464);
+}
+.contenet-foo{
+    text-align: center;
+}
+.contenet-foo h4{
+    text-align: center;
+    color: #fff;
+    border-bottom:3px solid rgb(84, 9, 34) ;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+.contenet-foo p{
+    
+    color: rgb(241, 189, 189);
+   
+}
+.contenedor-footer a{
+    color: #3d1515;
+    
+}
+.titulo-final{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0 ;
+    color: #8f004c;
+}
